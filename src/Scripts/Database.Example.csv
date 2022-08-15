@@ -1,0 +1,6 @@
+#TYPE System.Management.Automation.PSCustomObject,,
+Name,Path,Filter
+The Sims 4,C:\Users\default\OneDrive\Pictures\Captures,*Sims 4*
+The Sims 4,C:\Users\default\Documents\Electronic Arts\The Sims 4\Screenshots,.
+Planet Zoo,C:\Users\default\Videos\Planet Zoo,.
+Planet Zoo,C:\Users\default\OneDrive\Pictures\Captures,*Planet Zoo*
