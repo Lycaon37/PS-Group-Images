@@ -1,20 +1,20 @@
 <h1 align="center">
-  <a href="https://github.com/Albin-Xavier/PS-Sort-Images">
+  <a href="https://github.com/Albin-Xavier/PS-Group-Images">
     <img src="docs/images/logo.svg" alt="Logo" width="100" height="100">
   </a>
 </h1>
 
 <div align="center">
-  Sort-Images
+  Group-Images
   <br />
   <a href="#about"><strong>Explore the docs »</strong></a>
   <br />
   <br />
-  <a href="https://github.com/Albin-Xavier/PS-Sort-Images/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
+  <a href="https://github.com/Albin-Xavier/PS-Group-Images/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
   ·
-  <a href="https://github.com/Albin-Xavier/PS-Sort-Images/issues/new?assignees=&labels=enhancement&template=02_FEATURE_REQUEST.md&title=feat%3A+">Request a Feature</a>
+  <a href="https://github.com/Albin-Xavier/PS-Group-Images/issues/new?assignees=&labels=enhancement&template=02_FEATURE_REQUEST.md&title=feat%3A+">Request a Feature</a>
   .
-  <a href="https://github.com/Albin-Xavier/PS-Sort-Images/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+">Ask a Question</a>
+  <a href="https://github.com/Albin-Xavier/PS-Group-Images/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+">Ask a Question</a>
 </div>
 
 <div align="center">
@@ -48,7 +48,7 @@
 
 ## About
 
-This PowerShell script will organize images from a database of folders. While this script can be used with any image source, I had designed it because of problems I had with various screenshot systems for games. Steam, for instance, places screenshots in documents. NVIDIA Ansel places screenshots in videos. The Windows Game Bar places screenshots in pictures. With all these folders, it can be hard to keep track of what is stored where. This script can take all the pictures from those folders and organize them neatly! It will name according to a specified name followed by a four digit pattern. The images will be converted to JPGs and sorted into appropriately named folders. With a bit of work using the task scheduler in Windows, this could be set up to run automatically at preset times, such as every day at 8:00 AM, for example.
+This PowerShell script will consolidate images from a database of folders. While this script can be used with any image source, I had designed it because of problems I had with various screenshot systems for games. Steam, for instance, places screenshots in documents. NVIDIA Ansel places screenshots in videos. The Windows Game Bar places screenshots in pictures. With all these folders, it can be hard to keep track of what is stored where. This script can take all the pictures from those folders and organize them neatly! It will name according to a specified name followed by a four digit pattern. The images will be converted to JPGs and sorted into appropriately named folders. With a bit of work using the task scheduler in Windows, this could be set up to run automatically at preset times, such as every day at 8:00 AM, for example.
 
 ### Built With
 
@@ -63,7 +63,6 @@ This PowerShell script will organize images from a database of folders. While th
 
 - A computer running Microsoft Windows.
 - [PowerShell 7](https://github.com/PowerShell/PowerShell) or Windows PowerShell 5.1. Windows PowerShell 5.1 should already be installed on your computer. That will work just fine, but the menu to add folders is nicer with PowerShell 7.
-- [ImageMagick](https://imagemagick.org/script/download.php#windows)
 - The PowerShell module [PSMenu](https://github.com/Sebazzz/PSMenu). To install PSMenu, open PowerShell and use the following command:
 
 ```powershell
@@ -79,7 +78,7 @@ Once the release is extracted, right-click on the file "New-Launcher.ps1" to gen
 
 ## Usage
 
-First, add folders to be organized. To do this, use the shortcut titled "Edit-Database". Then, follow the on-screen instructions in the newly-opened menu to add a folder to the folder list. When done, press escape or close the window to exit the editor. Once folders have been added, run the shortcut titled "Sort-Pictures" to start the sorting process. It will then sort all the pictures found in the database.
+First, add folders to be organized. To do this, use the shortcut titled "Edit-Database". Then, follow the on-screen instructions in the newly-opened menu to add a folder to the folder list. When done, press escape or close the window to exit the editor. Once folders have been added, run the shortcut titled "Group-Images" to start the sorting process. It will then sort all the pictures found in the database.
 
 ### Alternative Method
 
@@ -97,17 +96,17 @@ Where the Name is the name you want the files to follow, FilePath is the path to
 
 ## Roadmap
 
-See the [open issues](https://github.com/Albin-Xavier/PS-Sort-Images/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/Albin-Xavier/PS-Group-Images/issues) for a list of proposed features (and known issues).
 
-- [Top Feature Requests](https://github.com/Albin-Xavier/PS-Sort-Images/issues?q=label%3Aenhancement+is%3Aopen+sort%3Areactions-%2B1-desc) (Add your votes using the 👍 reaction)
-- [Top Bugs](https://github.com/Albin-Xavier/PS-Sort-Images/issues?q=is%3Aissue+is%3Aopen+label%3Abug+sort%3Areactions-%2B1-desc) (Add your votes using the 👍 reaction)
-- [Newest Bugs](https://github.com/Albin-Xavier/PS-Sort-Images/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
+- [Top Feature Requests](https://github.com/Albin-Xavier/PS-Group-Images/issues?q=label%3Aenhancement+is%3Aopen+sort%3Areactions-%2B1-desc) (Add your votes using the 👍 reaction)
+- [Top Bugs](https://github.com/Albin-Xavier/PS-Group-Images/issues?q=is%3Aissue+is%3Aopen+label%3Abug+sort%3Areactions-%2B1-desc) (Add your votes using the 👍 reaction)
+- [Newest Bugs](https://github.com/Albin-Xavier/PS-Group-Images/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
 
 ## Support
 
 Reach out to the maintainer at one of the following places:
 
-- [GitHub issues](https://github.com/Albin-Xavier/PS-Sort-Images/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+)
+- [GitHub issues](https://github.com/Albin-Xavier/PS-Group-Images/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+)
 - Contact options listed on [this GitHub profile](https://github.com/Albin-Xavier)
 
 
@@ -122,7 +121,7 @@ Please read [our contribution guidelines](docs/CONTRIBUTING.md), and thank you f
 
 The original setup of this repository is by [Albin](https://github.com/Albin-Xavier).
 
-For a full list of all authors and contributors, see [the contributors page](https://github.com/Albin-Xavier/PS-Sort-Images/contributors).
+For a full list of all authors and contributors, see [the contributors page](https://github.com/Albin-Xavier/PS-Group-Images/contributors).
 
 
 ## License

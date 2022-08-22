@@ -9,7 +9,7 @@ To set up a development environment, please follow these steps:
 1. Clone the repo
 
    ```sh
-   git clone https://github.com/Albin-Xavier/PS-Sort-Images
+   git clone https://github.com/Albin-Xavier/PS-Consolidate-Images
    ```
 
 2. If not already installed, install [PowerShell](https://github.com/PowerShell/PowerShell)
@@ -17,7 +17,7 @@ To set up a development environment, please follow these steps:
 
 ## Issues and feature requests
 
-You've found a bug in the source code, a mistake in the documentation or maybe you'd like a new feature? You can help us by [submitting an issue on GitHub](https://github.com/Albin-Xavier/PS-Sort-Images/issues). Before you create an issue, make sure to search the issue archive -- your issue may have already been addressed!
+You've found a bug in the source code, a mistake in the documentation or maybe you'd like a new feature? You can help us by [submitting an issue on GitHub](https://github.com/Albin-Xavier/PS-Consolidate-Images/issues). Before you create an issue, make sure to search the issue archive -- your issue may have already been addressed!
 
 Please try to create bug reports that are:
 
@@ -31,10 +31,10 @@ Please try to create bug reports that are:
 ### How to submit a Pull Request
 
 1. Search our repository for open or closed
-   [Pull Requests](https://github.com/Albin-Xavier/PS-Sort-Images/pulls)
+   [Pull Requests](https://github.com/Albin-Xavier/PS-Consolidate-Images/pulls)
    that relate to your submission. You don't want to duplicate effort.
 2. Fork the project
 3. Create your feature branch (`git checkout -b feat/amazing_feature`)
-4. Commit your changes (`git commit -m 'feat: add amazing_feature'`) Sort-Images uses [conventional commits](https://www.conventionalcommits.org), so please follow the specification in your commit messages.
+4. Commit your changes (`git commit -m 'feat: add amazing_feature'`) Consolidate-Images uses [conventional commits](https://www.conventionalcommits.org), so please follow the specification in your commit messages. A summary of how to use conventional commits is provided [here](conventional-commits.md).
 5. Push to the branch (`git push origin feat/amazing_feature`)
-6. [Open a Pull Request](https://github.com/Albin-Xavier/PS-Sort-Images/compare?expand=1)
+6. [Open a Pull Request](https://github.com/Albin-Xavier/PS-Consolidate-Images/compare?expand=1)
